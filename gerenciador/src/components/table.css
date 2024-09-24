@@ -1,0 +1,60 @@
+/* src/pages/Table.css */
+
+body {
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding do body */
+    box-sizing: border-box; /* Garante que padding e bordas sejam incluídos no tamanho total */
+}
+
+.table-container {
+    margin: 40px auto; /* Adiciona margens somente na tabela */
+    max-width: 800px;
+    padding: 30px; 
+    background-color: #ffffff; 
+    border-radius: 16px; /* Aumenta o border-radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px; 
+}
+
+thead {
+    background-color: #404140;
+    color: white;
+}
+
+th, td {
+    padding: 15px 20px; 
+    text-align: left;
+    border-bottom: 2px solid #ddd; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; 
+}
+
+h3 {
+    margin: 20px 0; 
+    color: #333;
+    text-align: center;
+    font-weight: 600; 
+}
+
+.total-container {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 30px; 
+}
+
+.total-container h3 {
+    font-size: 1.5rem; 
+    color: #555;
+    margin: 0; 
+}
